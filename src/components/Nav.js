@@ -5,13 +5,17 @@ import Classify from './Classify';
 export const Container = styled.nav`
 	position:fixed;
 	color:black;
-	background-color:#999999;
+	background-color:#dddddd;
 	width:300px;
+	height:100vh;
 	border-right:#666666;
 
 `;
 
 export const ClassifyContainer = styled.div`
+	display:flex;
+	padding:1rem;
+	justify-content: space-between;
 `;
 
 
